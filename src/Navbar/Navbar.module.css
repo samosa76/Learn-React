@@ -1,3 +1,31 @@
-.title > h1 {
-    color: aqua;
+.container_navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Primary Color */
+    /* color: #00acdf */
+    /* Secondary Color */
+    color: #1167ca;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.nav_menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.link > li {
+    margin-right: 24px;
+    margin-left: 24px;
+    font-size: x-large;
+}
+
+.link > li:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
 }
