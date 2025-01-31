@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar/Navbar';
+import Unitpendidikan from './UnitPendidikan/Unitpendidikan';
+import Pendaftaran from './Pendaftaran/Pendaftaran';
+import Kerjasama from './Kerjasama/Kerjasama';
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Unitpendidikan />
+      <Pendaftaran />
+      <Kerjasama />
     </div>
   );
 }
