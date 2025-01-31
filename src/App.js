@@ -1,16 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 import Kerjasama from './Kerjasama/Kerjasama';
-import Navbar from './Navbar/Navbar';
 import Unitpendidikan from './UnitPendidikan/Unitpendidikan';
 import Pendaftaran from './Pendaftaran/Pendaftaran';
-import Kerjasama from './Kerjasama/Kerjasama';
+import { Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
     <div>
-      <Unitpendidikan />
-      <Pendaftaran />
-      <Kerjasama />
+      <Routes>
+        <Route path='/' element={<Unitpendidikan />}></Route>
+        <Route path='/Pendaftaran' element={<Pendaftaran />}></Route>
+        <Route path='/Kerjasama' element={<Kerjasama />}></Route>
+      </Routes>
     </div>
   );
 }
