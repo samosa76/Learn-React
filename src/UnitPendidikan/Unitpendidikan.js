@@ -9,3 +9,5 @@ function Unitpendidikan() {
     );
     
 }
+
+export default Unitpendidikan;

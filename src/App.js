@@ -1,26 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import body from './UnitPendidikan/Unitpendidikan';
+import Kerjasama from './Kerjasama/Kerjasama';
+import Navbar from './Navbar/Navbar';
+import Unitpendidikan from './UnitPendidikan/Unitpendidikan';
+import Pendaftaran from './Pendaftaran/Pendaftaran';
 import Kerjasama from './Kerjasama/Kerjasama';
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Belajar React
-    //     </a>
-    //   </header>
-    // </div>
     <div>
+      <Unitpendidikan />
+      <Pendaftaran />
       <Kerjasama />
     </div>
   );
