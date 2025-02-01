@@ -1,7 +1,9 @@
+import Latarbelakang from "../Component/Latarbelakang/Latarbelakang";
+
 function Home() {
-    return(
+    return (
         <div>
-            
+            <Latarbelakang/>
         </div>
     )
 }

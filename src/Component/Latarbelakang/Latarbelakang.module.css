@@ -1,0 +1,34 @@
+.title_Latarbelakang{
+    color: #1167ca;
+ 
+}
+
+.desc_Latarbelakang{
+    color: gray;
+
+}
+.content_info{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.images1_info > img{
+    height: 100px;
+    width: 100px;
+    justify-content: space-between;
+    
+
+}
+
+.images2_info > img{
+    height: 100px;
+    width: 100px;
+  justify-content: space-between;
+}
+
+.content_struktur {
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,7 @@
+.conteiner_visi {
+    display: flex;
+    align-items: center;
+}
+.desc_visi{
+    justify-items: first baseline;
+}
