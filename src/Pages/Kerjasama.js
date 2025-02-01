@@ -1,7 +1,9 @@
+import Unisza from "../Component/Unisza/Unisza";
+
 function Kerjasama() {
     return(
         <div>
-            <h1>Kerjasama</h1>
+           <Unisza />
         </div>
     )
 }
