@@ -1,7 +1,11 @@
+import ContentPendaftaran from "../Component/ContentPendaftaran/ContentPendaftaran";
+
+
+
 function Pendaftaran() {
     return (
         <div>
-            <h1>Pendaftaran</h1>
+           <ContentPendaftaran/>
         </div>
     );
 }

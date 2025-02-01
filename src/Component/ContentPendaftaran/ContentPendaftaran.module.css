@@ -1,0 +1,54 @@
+.semua {
+    margin: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: grey;
+    
+}
+
+.brosur img {
+    border-radius: 30px;
+    height: 600px;
+    width: 700px;
+}
+
+.info {
+    padding: 16px;
+    border-radius: 30px;
+    background-color: aqua;
+    width: 700px;
+}
+
+.daftar {
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.daftarsekarang {
+    border-radius: 30px;
+    background-color: blue;
+    height: 200px;
+    width: 320px;
+}
+
+.downloadbrosur {
+    border-radius: 30px;
+    background-color: blue;
+    height: 200px;
+    width: 320px;
+}
+
+.linkdaftar {
+    border-radius: 50px;
+    background-color: red;
+    height: 50px;
+    width: 120px;
+}
+
+.linkbrosur {
+    border-radius: 50px;
+    background-color: red;
+    height: 50px;
+    width: 140px;
+}
