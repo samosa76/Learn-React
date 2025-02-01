@@ -13,7 +13,8 @@ function ContentPendaftaran() {
                 <div className={style.info}>
                     <h1>Pendaftaran</h1>
                     <p>Pendaftaran Santri Tahun 2025</p>
-                    <p>Telah di buka PSB (Penerimaan Santri Baru) tahun ajaran 2025/2026 Ponpes Modern IT Multimedia Al Fatih</p>
+                    <p>Telah di buka PSB (Penerimaan Santri Baru) tahun ajaran 2025/2026
+                        <br />Pondok Pesantren Modern IT Multimedia Al Fatih</p>
                     <p>Kuota hanya untuk :
                         <br />- SMP : 25 santri
                         <br />- SMK : 25 santri</p>
@@ -22,7 +23,7 @@ function ContentPendaftaran() {
                 <div className={style.daftar}>
 
                     <div className={style.daftarsekarang}>
-                        <div>
+                        <div className={style.mantap}>
                             <h2>Daftar Sekarang</h2>
                         </div>
                         <div className={style.linkdaftar}>
