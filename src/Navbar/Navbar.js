@@ -10,7 +10,7 @@ function Navbar() {
 
             <ul className={style.nav_menu}>
 
-                <Link to="/" className={style.link}>
+                <Link to="/Home" className={style.link}>
                     <li>Home</li>
                 </Link>
 
@@ -18,7 +18,7 @@ function Navbar() {
                     <li>News</li>
                 </Link>
 
-                <Link to="/" className={style.link}>
+                <Link to="/Unit-pendidikan" className={style.link}>
                     <li>Unit Pendidikan</li>
                 </Link>
 
