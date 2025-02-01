@@ -1,0 +1,16 @@
+.title_Idbc{
+    color: gray;
+    margin: 16px;
+}
+
+.desc_Idbc{
+    color: gray;
+    margin: 16px;
+}
+
+.image_Idbc > img {
+    width: 400px;
+    height: 800px;
+    margin: 16px;
+    border-radius: 20px;
+  }

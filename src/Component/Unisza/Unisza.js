@@ -3,6 +3,7 @@ function Unisza() {
 
     return (
         <div className={style.container_Unisza}>
+            <hr />
             <div className={style.content_Unisza}>
                 <div className={style.title_Unisza}>
                     <h1>Universitas Sultan Zainal Abidin, Malaysia</h1>
