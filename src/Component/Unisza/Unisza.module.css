@@ -5,13 +5,23 @@
 
 .desc_Unisza {
     color: gray;
-margin-left: 16px;
+    margin-left: 16px;
 
 }
 
-.image_Unisza > img {
-  width: 450px;
-  height: 300px;
-  margin: 16px;
-  border-radius: 20px;
+.image_Unisza>img {
+    width: 450px;
+    height: 300px;
+    margin: 16px;
+    border-radius: 20px;
+}
+
+.title_kerjasama{
+    color: gray;
+    margin-left: 16px;
+}
+
+.desc_kerjasama{
+    color: gray;
+    margin-left: 16px;
 }
