@@ -1,0 +1,38 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.isi {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+.kiri {
+    width: 400px;
+    margin-right: 300px;
+}
+
+.isian {
+    background-color: rgb(235, 235, 235);
+    margin: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+
+
+}
+
+.isian:hover {
+    background-color: rgb(255, 255, 255);
+}
+.R {
+    
+    height: 190px;
+    width: 400px;
+
+
+}
