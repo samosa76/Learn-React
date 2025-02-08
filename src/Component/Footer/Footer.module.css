@@ -1,0 +1,29 @@
+.footer {
+    background-color: deepskyblue;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    margin: 5px;
+    background-color: white;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.text {
+    color: white;
+}
+
+.name {
+    color: white;
+    margin-bottom: 35px;
+}
