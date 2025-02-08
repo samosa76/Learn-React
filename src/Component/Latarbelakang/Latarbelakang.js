@@ -1,3 +1,4 @@
+import Guru from "./Item/Guru";
 import Item from "./Item/Item";
 import style from "./Latarbelakang.module.css";
 function Latarbelakang() {
@@ -36,7 +37,7 @@ function Latarbelakang() {
                 </div>
                 <div>
                     <Item title="Misi" desc="Membentuk santri menjadi generasi muslim yang memiliki karakter:
-                                            \n 1. Memiliki kompetensi keilmuan agama dan umum.
+                                             1. Memiliki kompetensi keilmuan agama dan umum.
                                             2. Istiqomah mengamalkan ajaran islam
                                             3. Memiliki Jiwa Qur'ani
                                             4. Memiliki aenerasi akhlak yang mulia
@@ -55,11 +56,23 @@ function Latarbelakang() {
                     <h1>STRUKTURAL</h1>
                 </div>
                 <div className={style.image_struktur}>
+                    <img src="image/struktur/struktur.jpeg" />
                 </div>
                 <div className={style.button_struktur}>
-                   
+                    <u><p>Detail Struktur</p></u>
                 </div>
             </div>
+            <div className={style.title_teacher}>
+           <h1> <b>PENGAJAR</b></h1>
+            </div>
+            <div className={style.teacher}> 
+                <Guru title="teacher1" />
+                <Guru title="teacher2" />
+                <Guru title="teacher3" />
+                <Guru title="teacher4" />
+                <Guru title="teacher5" />
+            </div>
+
         </div>
     )
 

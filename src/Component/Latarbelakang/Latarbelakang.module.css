@@ -1,34 +1,77 @@
-.title_Latarbelakang{
+.title_Latarbelakang {
     color: #1167ca;
- 
+
 }
 
-.desc_Latarbelakang{
+.desc_Latarbelakang {
     color: gray;
 
 }
-.content_info{
+
+.content_info {
     display: flex;
     justify-content: center;
-    
+
 }
 
 
-.images1_info > img{
+.images1_info>img {
     height: 100px;
     width: 100px;
     justify-content: space-between;
-    
+
 
 }
 
-.images2_info > img{
+.images2_info>img {
     height: 100px;
     width: 100px;
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .content_struktur {
-    justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    color: #1167ca;
+
+}
+
+.image_struktur>img {
+    height: 1000px;
+    width: 1000px;
+}
+
+.button_struktur {
+    background-color: #1167ca;
+    background-size: 80px;
+    color: aliceblue;
+
+    p:hover {
+        cursor: pointer;
+        
+    }
+
+    p {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: large;
+    }
+}
+
+.button_struktur:hover {
+    background-color: rgb(53, 135, 185);
+    cursor: pointer;
+}
+
+.teacher{
+    display: flex;
+   
+}
+
+.title_teacher{
+    color: #1167ca;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
