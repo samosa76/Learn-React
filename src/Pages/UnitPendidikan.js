@@ -1,9 +1,10 @@
 import Ekskul from "../Component/Ekskul/Ekskul";
+import Hero from "../Component/Hero/Hero";
 
 function UnitPendidikan() {
     return (
         <div>
-            <h1></h1>
+            <Hero />
             <Ekskul />
         </div>
     )

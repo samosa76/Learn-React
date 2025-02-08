@@ -6,17 +6,22 @@
     flex-direction: column;
     align-items: center;
     width: 500px;
-
+    border-left: solid rgb(33, 119, 248) 10px;
 
 }
 
 .isian:hover {
     background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    h2 {
+        color: rgb(39, 178, 233);
+    }
+    border-left: solid rgb(39, 178, 233) 10px ;
 }
 .R {
-    
     height: 190px;
     width: 400px;
-
-
+    h2{
+        color: rgb(15, 115, 230) ;
+    }
 }

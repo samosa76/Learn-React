@@ -5,7 +5,7 @@ import style from './Pendidikankonten.module.css'
 function ContentPendidikan() {
 
     return (
-        <div>
+        <div className={style.ContentPendidikan}>
             <div className={style.title}>
                 <h1>UNIT PENDIDIKAN</h1>
             </div>
@@ -20,7 +20,7 @@ function ContentPendidikan() {
                     <ItemPendidikan title="Aktivitas Santri" desc="Dalam memenuhi pendidikan di PPM IT Multimedia Al Fatih santri akan memepelajari materi umum kedinasan, Tahfidzul Quran, Praktek IT Mutimedia dan Materi Diniyah / Agama yang kami bagi pembelajarannya "/> */}
 
                 </div>
-                <div>
+                <div className={style.kanan}>
                     <img />
 
                 </div>
